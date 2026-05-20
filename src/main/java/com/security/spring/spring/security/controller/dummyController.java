@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class dummyController {
 
-    @GetMapping("test")
+    @GetMapping("hello")
     public String test(){
-        return "Working Fine!!!";
+        return "Welcome to Spring boot App!!!";
     }
+
+
 }
